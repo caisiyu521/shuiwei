@@ -18,14 +18,19 @@
     <link rel="stylesheet" href="css/common.css">
     <!-- 引入我们index.css文件  -->
     <link rel="stylesheet" href="css/index.css">
+
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js "></script>
+    <script src="js/jquery.min.js"></script>
 
     <!-- swiper dome styles -->
     <style>
         .swiper-container {
             width: 100%;
             height: 100%;
-            /* height: 554px; */
+            --swiper-theme-color: #ff6600;
+            /* 设置Swiper风格 */
             --swiper-pagination-color: #4983d3;
             /* 两种都可以 */
             /* 设置Swiper风格 */
@@ -36,11 +41,16 @@
             /* --swiper-pagination-size: 50px; */
         }
         
+        .product .swiper-container {
+            width: 100%;
+            padding-top: 35px;
+            padding-bottom: 30px;
+        }
+        
         .swiper-slide {
             text-align: center;
             font-size: 18px;
             background: #fff;
-            /* Center slide text vertically */
             display: -webkit-box;
             display: -ms-flexbox;
             display: -webkit-flex;
@@ -54,11 +64,22 @@
             -webkit-align-items: center;
             align-items: center;
         }
+        
+        .product .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 400px;
+            height: 400px;
+        }
     </style>
 
 </head>
 
 <body>
+    <div class="back">
+        <img src="images/top.png" alt="">
+    </div>
+
     <!-- 欢迎模块 start 水伟环境欢迎你 -->
     <section class="welcome">
         <div class="w">
@@ -172,46 +193,130 @@
     </div>
     <!-- 公司介绍结束 -->
 
-    <!-- 解决方案 start -->
-    <div class="company-solution">
+    <!-- 产品中心 start -->
+    <div class="company-product">
         <div class="w">
             <h3 class="title">
-                解决<em>方案</em>
+                产品<em>中心</em>
             </h3>
             <h4 class="s_title gray">
                 <em>以持续创新、改善环境、服务社会为己任</em>
             </h4>
-            <ul class="solutiontlist clearfix">
+        </div>
+    </div>
+    <div class="company-product-box">
+        <div class="product">
+            <div class="swiper-container" id="swiper4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <img src="images/product1.png" alt="pic">
+                            <h4>污染源实时监控系统</h4>
+                            <div class="txt">
+                                <p>污染源自动监控系统采用无线通讯、移动互联网、大数据分析等技术对废水企业、废气企业、污水厂等污染源排污状况进行24小时不间断的监控、分析。系统集成了GIS地图监控、平台、APP报警服务、视频监控、设备质控、设备反控等应用，以辅助监管，做到真正的无人值守。</p>
+                            </div>
+                            <div class="newsmore">
+                                <a href="# ">MORE+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <img src="images/product2.png" alt="pic">
+                            <h4>污染源实时监控系统</h4>
+                            <div class="txt">
+                                <p>污染源自动监控系统采用无线通讯、移动互联网、大数据分析等技术对废水企业、废气企业、污水厂等污染源排污状况进行24小时不间断的监控、分析。系统集成了GIS地图监控、平台、APP报警服务、视频监控、设备质控、设备反控等应用，以辅助监管，做到真正的无人值守。</p>
+                            </div>
+                            <div class="newsmore">
+                                <a href="# ">MORE+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <img src="images/product3.png" alt="pic">
+                            <h4>污染源实时监控系统</h4>
+                            <div class="txt">
+                                <p>污染源自动监控系统采用无线通讯、移动互联网、大数据分析等技术对废水企业、废气企业、污水厂等污染源排污状况进行24小时不间断的监控、分析。系统集成了GIS地图监控、平台、APP报警服务、视频监控、设备质控、设备反控等应用，以辅助监管，做到真正的无人值守。</p>
+                            </div>
+                            <div class="newsmore">
+                                <a href="# ">MORE+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <img src="images/product4.png" alt="pic">
+                            <h4>污染源实时监控系统</h4>
+                            <div class="txt">
+                                <p>污染源自动监控系统采用无线通讯、移动互联网、大数据分析等技术对废水企业、废气企业、污水厂等污染源排污状况进行24小时不间断的监控、分析。系统集成了GIS地图监控、平台、APP报警服务、视频监控、设备质控、设备反控等应用，以辅助监管，做到真正的无人值守。</p>
+                            </div>
+                            <div class="newsmore">
+                                <a href="# ">MORE+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <img src="images/product5.jpg" alt="pic">
+                            <h4>污染源实时监控系统</h4>
+                            <div class="txt">
+                                <p>污染源自动监控系统采用无线通讯、移动互联网、大数据分析等技术对废水企业、废气企业、污水厂等污染源排污状况进行24小时不间断的监控、分析。系统集成了GIS地图监控、平台、APP报警服务、视频监控、设备质控、设备反控等应用，以辅助监管，做到真正的无人值守。</p>
+                            </div>
+                            <div class="newsmore">
+                                <a href="# ">MORE+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows 添加箭头-->
+                <div class="swiper-button-next swiper-button-black "></div>
+                <div class="swiper-button-prev swiper-button-black "></div>
+            </div>
+        </div>
+    </div>
+    <!-- 产品中心 end -->
+
+    <!-- 解决方案 start -->
+    <div class="company-solution ">
+        <div class="w ">
+            <h3 class="title ">
+                解决<em>方案</em>
+            </h3>
+            <h4 class="s_title  ">
+                <em>以持续创新、改善环境、服务社会为己任</em>
+            </h4>
+            <ul class="solutiontlist clearfix ">
                 <li>
-                    <a href="#">
-                        <img src="images/solution1.png" alt="solution1">
+                    <a href="# ">
+                        <img src="images/solution1.png " alt="solution1 ">
                     </a>
                     <div>
-                        <a href="#">LDAR综合管理系统</a>
+                        <a href="# ">LDAR综合管理系统</a>
                     </div>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="images/solution2.jpg" alt="solution1">
+                    <a href="# ">
+                        <img src="images/solution2.jpg " alt="solution1 ">
                     </a>
                     <div>
-                        <a href="#">LDAR综合管理系统</a>
+                        <a href="# ">LDAR综合管理系统</a>
                     </div>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="images/solution3.jpg" alt="solution1">
+                    <a href="# ">
+                        <img src="images/solution3.jpg " alt="solution1 ">
                     </a>
                     <div>
-                        <a href="#">LDAR综合管理系统</a>
+                        <a href="# ">LDAR综合管理系统</a>
                     </div>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="images/solution4.jpg" alt="solution1">
+                    <a href="# ">
+                        <img src="images/solution4.jpg " alt="solution1 ">
                     </a>
                     <div>
-                        <a href="#">LDAR综合管理系统</a>
+                        <a href="# ">LDAR综合管理系统</a>
                     </div>
                 </li>
             </ul>
@@ -220,73 +325,76 @@
     <!-- 解决方案 end -->
 
     <!-- 新闻中心 start -->
-    <div class="company-news w">
+    <div class="company-news w ">
         <h3 class="title ">
             新闻<em>中心</em>
         </h3>
         <h4 class="s_title ">
             <em>以持续创新、改善环境、服务社会为己任</em>
         </h4>
-        <div class="news-content clearfix">
-            <div class="left">
+        <div class="news-content clearfix ">
+            <div class="left ">
                 <ul>
-                    <li class="one">
+                    <li class="one ">
                         <h3>
-                            <a href="#">砥砺前行，伟瑞迪荣登第六届浙江大学校友创业大赛全球百强项目名单！</a>
+                            <a href="# ">砥砺前行，伟瑞迪荣登第六届浙江大学校友创业大赛全球百强项目名单！</a>
                         </h3>
                         <h4>2021.04.29</h4>
-                        <div class="wz">
-                            <a href="#">历时半年之久的第六届浙江大学校友创业大赛，圆满完成了第一阶段的项目征集、地方初选、赛区复赛等，及最后…</a>
+                        <div class="wz ">
+                            <a href="# ">历时半年之久的第六届浙江大学校友创业大赛，圆满完成了第一阶段的项目征集、地方初选、赛区复赛等，及最后…</a>
                         </div>
                     </li>
                     <li>
                         <em>2021-03-11</em>
-                        <a href="#">【企业文化】伟瑞迪“日清日升行动”正式启动</a>
+                        <a href="# ">【企业文化】伟瑞迪“日清日升行动”正式启动</a>
                     </li>
                     <li>
                         <em>2021-02-04</em>
-                        <a href="#">【伟瑞迪环保讲堂公开】智慧园区安全环境应急一体化解决方案系列讲座</a>
+                        <a href="# ">【伟瑞迪环保讲堂公开】智慧园区安全环境应急一体化解决方案系列讲座</a>
                     </li>
                     <li>
                         <em>2021-01-04</em>
-                        <a href="#">【公司动态】“祥瑞跃万里” 一伟瑞迪十年·回顾·展望月系列活动(二)</a>
+                        <a href="# ">【公司动态】“祥瑞跃万里” 一伟瑞迪十年·回顾·展望月系列活动(二)</a>
                     </li>
                     <li>
                         <em>2020-12-04</em>
-                        <a href="#">【公司动态】“祥瑞跃万里” 一伟瑞迪十年·回顾·展望月系列活动(一)</a>
+                        <a href="# ">【公司动态】“祥瑞跃万里” 一伟瑞迪十年·回顾·展望月系列活动(一)</a>
                     </li>
                 </ul>
             </div>
-            <div class="right">
-                <div class="swiper-container" id="swiper3">
-                    <div class="swiper-wrapper">
+            <div class="right ">
+                <div class="swiper-container " id="swiper3 ">
+                    <div class="swiper-wrapper ">
                         <div class="swiper-slide ">
-                            <a href="">
-                                <img src="images/news-pic1.jpg" alt="">
+                            <a href=" ">
+                                <img src="images/news-pic1.jpg " alt=" ">
                             </a>
-                            <a href="#">
+                            <a href="# ">
                                 <h4>伟瑞迪天津生产基地诚邀合作</h4>
                             </a>
                         </div>
                         <div class="swiper-slide ">
-                            <a href="">
-                                <img src="images/news-pic2.png" alt="">
+                            <a href=" ">
+                                <img src="images/news-pic2.png " alt=" ">
                             </a>
-                            <a href="#">
+                            <a href="# ">
                                 <h4>伟瑞迪天津生产基地诚邀合作</h4>
                             </a>
                         </div>
                         <div class="swiper-slide ">
-                            <a href="">
-                                <img src="images/news-pic3.jpg" alt="">
+                            <a href=" ">
+                                <img src="images/news-pic3.jpg " alt=" ">
                             </a>
-                            <a href="#">
+                            <a href="# ">
                                 <h4>伟瑞迪天津生产基地诚邀合作</h4>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="newsmore ">
+            <a href="# ">MORE+</a>
         </div>
     </div>
     <!-- 新闻中心 end -->
@@ -359,13 +467,13 @@
     </div>
     <!-- Copyright end -->
 
-    <!-- Swiper JS -->
-    <script src="js/swiper-bundle.min.js "></script>
+
     <!-- 初始化 Swiper -->
     <script>
         var swiper = new Swiper('#swiper1', {
+            // mousewheel: true,
             navigation: {
-                nextEl: '.swiper-button-next',
+                nextEl: '.swiper-button-next ',
                 prevEl: '.swiper-button-prev',
             },
             grabCursor: true,
@@ -404,6 +512,44 @@
                 el: '.swiper-pagination',
                 clickable: true,
             },
+        })
+        var swiper3 = new Swiper('#swiper4', {
+            navigation: {
+                nextEl: '.swiper-button-next ',
+                prevEl: '.swiper-button-prev ',
+            },
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+
+        })
+
+        $(function() {
+            // 被卷去的头部 scrollTop()  / 被卷去的左侧 scrollLeft()
+            // 页面滚动事件
+            var boxtop = $('.company-info').offset().top;
+            $(window).scroll(function() {
+                // console.log($(document).scrollTop());
+                if ($(document).scrollTop() >= boxtop) {
+                    $('.back').fadeIn();
+                } else {
+                    $('.back').fadeOut();
+                }
+            });
+            // 返回顶部
+            $('.back').click(function() {
+                $('body,html').stop().animate({
+                    scrollTop: 0
+                }, 1000);
+            });
         })
     </script>
 </body>
