@@ -166,14 +166,130 @@
                             <div class="swiper-pagination "></div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
     </div>
-
     <!-- 公司介绍结束 -->
+
+    <!-- 解决方案 start -->
+    <div class="company-solution">
+        <div class="w">
+            <h3 class="title">
+                解决<em>方案</em>
+            </h3>
+            <h4 class="s_title gray">
+                <em>以持续创新、改善环境、服务社会为己任</em>
+            </h4>
+            <ul class="solutiontlist clearfix">
+                <li>
+                    <a href="#">
+                        <img src="images/solution1.png" alt="solution1">
+                    </a>
+                    <div>
+                        <a href="#">LDAR综合管理系统</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/solution2.jpg" alt="solution1">
+                    </a>
+                    <div>
+                        <a href="#">LDAR综合管理系统</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/solution3.jpg" alt="solution1">
+                    </a>
+                    <div>
+                        <a href="#">LDAR综合管理系统</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/solution4.jpg" alt="solution1">
+                    </a>
+                    <div>
+                        <a href="#">LDAR综合管理系统</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 解决方案 end -->
+
+    <!-- 新闻中心 start -->
+    <div class="company-news w">
+        <h3 class="title ">
+            新闻<em>中心</em>
+        </h3>
+        <h4 class="s_title ">
+            <em>以持续创新、改善环境、服务社会为己任</em>
+        </h4>
+        <div class="news-content clearfix">
+            <div class="left">
+                <ul>
+                    <li class="one">
+                        <h3>
+                            <a href="#">砥砺前行，伟瑞迪荣登第六届浙江大学校友创业大赛全球百强项目名单！</a>
+                        </h3>
+                        <h4>2021.04.29</h4>
+                        <div class="wz">
+                            <a href="#">历时半年之久的第六届浙江大学校友创业大赛，圆满完成了第一阶段的项目征集、地方初选、赛区复赛等，及最后…</a>
+                        </div>
+                    </li>
+                    <li>
+                        <em>2021-03-11</em>
+                        <a href="#">【企业文化】伟瑞迪“日清日升行动”正式启动</a>
+                    </li>
+                    <li>
+                        <em>2021-02-04</em>
+                        <a href="#">【伟瑞迪环保讲堂公开】智慧园区安全环境应急一体化解决方案系列讲座</a>
+                    </li>
+                    <li>
+                        <em>2021-01-04</em>
+                        <a href="#">【公司动态】“祥瑞跃万里” 一伟瑞迪十年·回顾·展望月系列活动(二)</a>
+                    </li>
+                    <li>
+                        <em>2020-12-04</em>
+                        <a href="#">【公司动态】“祥瑞跃万里” 一伟瑞迪十年·回顾·展望月系列活动(一)</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="swiper-container" id="swiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <a href="">
+                                <img src="images/news-pic1.jpg" alt="">
+                            </a>
+                            <a href="#">
+                                <h4>伟瑞迪天津生产基地诚邀合作</h4>
+                            </a>
+                        </div>
+                        <div class="swiper-slide ">
+                            <a href="">
+                                <img src="images/news-pic2.png" alt="">
+                            </a>
+                            <a href="#">
+                                <h4>伟瑞迪天津生产基地诚邀合作</h4>
+                            </a>
+                        </div>
+                        <div class="swiper-slide ">
+                            <a href="">
+                                <img src="images/news-pic3.jpg" alt="">
+                            </a>
+                            <a href="#">
+                                <h4>伟瑞迪天津生产基地诚邀合作</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 新闻中心 end -->
 
     <!-- 底部模块的制作 start -->
     <footer class="footer clearfix ">
@@ -254,7 +370,7 @@
             },
             grabCursor: true,
             autoplay: {
-                delay: 2500,
+                delay: 3500,
                 disableOnInteraction: false,
             },
             loop: true,
@@ -267,6 +383,19 @@
             autoplay: true, //可选选项，自动滑动
             autoplay: {
                 delay: 1500,
+                disableOnInteraction: false,
+            },
+            grabCursor: true,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        })
+        var swiper2 = new Swiper('#swiper3', {
+            autoplay: true, //可选选项，自动滑动
+            autoplay: {
+                delay: 3500,
                 disableOnInteraction: false,
             },
             grabCursor: true,

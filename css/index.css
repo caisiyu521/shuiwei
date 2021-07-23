@@ -9,23 +9,27 @@
     height: 100%;
 }
 
-.company-info .title {
+.title {
     margin: 0 auto;
     width: 200px;
     text-align: center;
     font-size: 18px;
-    padding-top: 50px;
+    padding-top: 30px;
     color: #88b645;
     font-weight: 400;
 }
 
-.company-info .title em {
+.title em {
     /* margin: 0 auto; */
     width: 200px;
     text-align: center;
     font-size: 18px;
     padding-top: 60px;
     color: #3b97d4;
+}
+
+.company-solution .gray em {
+    background: #f3f3f3 url(../images/line01.jpg) no-repeat center bottom;
 }
 
 .s_title {
@@ -47,17 +51,21 @@
     top: 6px;
 }
 
-.company {
-    margin: 20px 0;
-    width: 1100px;
-}
-
 .company-info .company .right {
     margin-top: 10px;
     margin-left: 30px;
     width: 614px;
-    /* background: #f0f5f9; */
-    /* height: 245px; */
+}
+
+.company {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.company-info .company .right h4 {
+    /* text-align: left; */
 }
 
 .company-info .company .right h4 a {
@@ -66,6 +74,7 @@
 }
 
 .company-info .company .right h5 {
+    /* text-align: left; */
     font-size: 12px;
     letter-spacing: 1px;
     padding-top: 2px;
@@ -86,6 +95,7 @@
     z-index: 2;
     padding-bottom: 5px;
     border-bottom: 1px solid #ccc;
+    text-align: left;
 }
 
 .swipe_text {
@@ -95,9 +105,115 @@
     left: 0;
     width: 614px;
     height: 100px;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .swipe_text em {
     font-size: 14px;
+}
+
+.company-solution {
+    margin-top: 30px;
+    background-color: #f3f3f3;
+}
+
+.company-solution .solutiontlist {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.company-solution .solutiontlist li {
+    float: left;
+    width: 250px;
+    /* height: 180px; */
+    margin-right: 15px;
+}
+
+.company-solution .solutiontlist li img {
+    width: 100%;
+    height: auto;
+}
+
+.company-solution .solutiontlist li div {
+    height: 50px;
+}
+
+.company-solution .solutiontlist li div a {
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.news-content {
+    width: 1100px;
+    margin: 0 auto;
+    height: 400px;
+    padding-top: 37px;
+}
+
+.news-content .left {
+    float: left;
+    width: 514px;
+}
+
+.news-content .left .one {
+    border-bottom: 1px solid #e3e1e1;
+    padding-bottom: 15px;
+    margin-bottom: 21px;
+}
+
+.news-content .left .one h3 {
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.news-content .left .one h3 a {
+    color: #0e468c;
+}
+
+.news-content .left .one h4 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    padding-bottom: 12px;
+}
+
+.news-content .left .one .wz {
+    font-size: 14px;
+    color: #666666;
+    line-height: 23px;
+}
+
+.news-content .left ul li {
+    font-size: 12px;
+    color: #666666;
+    padding-bottom: 15px;
+}
+
+.news-content .right {
+    float: right;
+    width: 525px;
+    height: 314px;
+    background-color: pink;
+}
+
+.news-content .right img {
+    width: 525px;
+    height: 314px;
+}
+
+.news-content .right h4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(../images/touming.png);
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    width: 525px;
 }
