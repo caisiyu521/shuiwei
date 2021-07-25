@@ -1,0 +1,55 @@
+.ny_nav {
+    height: 50px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.ny_nav li {
+    float: left;
+    margin-right: 64px;
+}
+
+.ny_nav li a {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    height: 45px;
+    line-height: 46px;
+    padding: 0 5px;
+}
+
+.current-icon {
+    border-bottom: 4px solid #88b645;
+}
+
+.tab {
+    width: 978px;
+    margin: 100px auto;
+}
+
+.tab_list {
+    height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab_list li {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab_list .current {
+    background-color: #c81623;
+    color: #fff;
+}
+
+.item_info {
+    padding: 20px 0 0 20px;
+}
+
+.item {
+    display: none;
+}
