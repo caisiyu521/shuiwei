@@ -1,262 +1,263 @@
-        .banner {
-            width: 100%;
-            /* height: 100%; */
-            height: 554px;
-        }
-        
-        .banner img {
-            width: 100%;
-            height: 100%;
-        }
-        
-        .title {
-            margin: 0 auto;
-            width: 200px;
-            text-align: center;
-            font-size: 18px;
-            padding-top: 40px;
-            color: #88b645;
-            font-weight: 400;
-        }
-        
-        .title em {
-            /* margin: 0 auto; */
-            width: 200px;
-            text-align: center;
-            font-size: 18px;
-            padding-top: 60px;
-            color: #3b97d4;
-        }
-        
-        .s_title {
-            width: 533px;
-            margin: 0 auto;
-            text-align: center;
-            border-bottom: 1px solid #ccc;
-            margin-top: 10px;
-            margin-bottom: 24px;
-        }
-        
-        .s_title em {
-            font-size: 12px;
-            color: #999;
-            background: #fff url(../images/line01.jpg) no-repeat center bottom;
-            padding: 0 25px;
-            padding-bottom: 15px;
-            position: relative;
-            top: 6px;
-        }
-        
-        .company-info .company .right {
-            margin-top: 10px;
-            margin-left: 30px;
-            width: 614px;
-        }
-        
-        .company {
-            text-align: center;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-        
-        .company-info .company .right h4 a {
-            font-size: 16px;
-            color: #4983d3;
-        }
-        
-        .company-info .company .right h5 {
-            /* text-align: left; */
-            font-size: 12px;
-            letter-spacing: 1px;
-            padding-top: 2px;
-            color: #999;
-            padding-bottom: 10px;
-        }
-        
-        .company-info .company .right .info {
-            position: relative;
-        }
-        
-        .company-info .company .right .info a p {
-            position: absolute;
-            font-size: 14px;
-            /* z-index: 2em; */
-            letter-spacing: 1px;
-            text-indent: 2em;
-            z-index: 2;
-            padding-bottom: 5px;
-            border-bottom: 1px solid #ccc;
-            text-align: left;
-        }
-        
-        .swipe_text {
-            position: absolute;
-            z-index: 1;
-            top: 120px;
-            left: 0;
-            width: 614px;
-            height: 100px;
-            /* background-color: pink; */
-        }
-        
-        .swipe_text em {
-            font-size: 14px;
-        }
-        
-        .company-solution {
-            margin-top: 30px;
-            background-color: #fff;
-        }
-        
-        .company-solution .solutiontlist {
-            text-align: center;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        
-        .company-solution .solutiontlist li {
-            float: left;
-            width: 250px;
-            /* height: 180px; */
-            margin-right: 15px;
-        }
-        
-        .company-solution .solutiontlist li img {
-            width: 100%;
-            height: auto;
-        }
-        
-        .company-solution .solutiontlist li div {
-            height: 50px;
-        }
-        
-        .company-solution .solutiontlist li div a {
-            font-size: 14px;
-            line-height: 50px;
-            text-align: center;
-        }
-        
-        .news-content {
-            width: 1100px;
-            margin: 0 auto;
-            height: 360px;
-            padding-top: 37px;
-        }
-        
-        .news-content .left {
-            float: left;
-            width: 514px;
-        }
-        
-        .news-content .left .one {
-            border-bottom: 1px solid #e3e1e1;
-            padding-bottom: 15px;
-            margin-bottom: 21px;
-        }
-        
-        .news-content .left .one h3 {
-            padding-bottom: 12px;
-            font-weight: 400;
-            font-size: 18px;
-        }
-        
-        .news-content .left .one h3 a {
-            color: #0e468c;
-        }
-        
-        .news-content .left .one h4 {
-            font-weight: 400;
-            font-size: 14px;
-            color: #999999;
-            padding-bottom: 12px;
-        }
-        
-        .news-content .left .one .wz {
-            font-size: 14px;
-            color: #666666;
-            line-height: 23px;
-        }
-        
-        .news-content .left ul li {
-            font-size: 12px;
-            color: #666666;
-            padding-bottom: 15px;
-        }
-        
-        .news-content .right {
-            float: right;
-            width: 525px;
-            height: 314px;
-            background-color: pink;
-        }
-        
-        .news-content .right img {
-            width: 525px;
-            height: 314px;
-        }
-        
-        .news-content .right h4 {
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            background: url(../images/touming.png);
-            height: 38px;
-            line-height: 38px;
-            color: #fff;
-            font-size: 14px;
-            text-align: center;
-            width: 525px;
-        }
-        
-        .newsmore {
-            width: 122px;
-            height: 36px;
-            border: 1px solid #4983d3;
-            line-height: 36px;
-            text-align: center;
-            display: block;
-            margin: 0 auto;
-            font-size: 13px;
-            border-radius: 34px;
-            margin-bottom: 33px;
-        }
-        
-        .newsmore a {
-            color: #4983d3;
-        }
-        
-        .company-product-box {
-            background-color: #a3b7cf;
-        }
-        
-        .product {
-            width: 1100px;
-            overflow: hidden;
-            margin: 0 auto;
-            padding-top: 4px;
-        }
-        
-        .product-item {
-            padding-top: 20px;
-            height: 400px;
-            width: 400px;
-            background-color: #fff;
-        }
-        
-        .product-item img {
-            width: 90%;
-            height: 200px;
-        }
-        
-        .product-item .txt {
-            padding: 5px 10px;
-        }
-        
-        .product-item .txt p {
-            text-indent: 2em;
-            text-align: left;
-            font-size: 13.5px;
-        }
+.banner {
+    padding-top: 102px;
+    width: 100%;
+    /* height: 100%; */
+    height: 700px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 40px;
+    color: #88b645;
+    font-weight: 400;
+}
+
+.title em {
+    /* margin: 0 auto; */
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 60px;
+    color: #3b97d4;
+}
+
+.s_title {
+    width: 533px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.s_title em {
+    font-size: 12px;
+    color: #999;
+    background: #fff url(../images/line01.jpg) no-repeat center bottom;
+    padding: 0 25px;
+    padding-bottom: 15px;
+    position: relative;
+    top: 6px;
+}
+
+.company-info .company .right {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 614px;
+}
+
+.company {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.company-info .company .right h4 a {
+    font-size: 16px;
+    color: #4983d3;
+}
+
+.company-info .company .right h5 {
+    /* text-align: left; */
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-top: 2px;
+    color: #999;
+    padding-bottom: 10px;
+}
+
+.company-info .company .right .info {
+    position: relative;
+}
+
+.company-info .company .right .info a p {
+    position: absolute;
+    font-size: 14px;
+    /* z-index: 2em; */
+    letter-spacing: 1px;
+    text-indent: 2em;
+    z-index: 2;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.swipe_text {
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    left: 0;
+    width: 614px;
+    height: 100px;
+    /* background-color: pink; */
+}
+
+.swipe_text em {
+    font-size: 14px;
+}
+
+.company-solution {
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.company-solution .solutiontlist {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.company-solution .solutiontlist li {
+    float: left;
+    width: 250px;
+    /* height: 180px; */
+    margin-right: 15px;
+}
+
+.company-solution .solutiontlist li img {
+    width: 100%;
+    height: auto;
+}
+
+.company-solution .solutiontlist li div {
+    height: 50px;
+}
+
+.company-solution .solutiontlist li div a {
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.news-content {
+    width: 1100px;
+    margin: 0 auto;
+    height: 360px;
+    padding-top: 37px;
+}
+
+.news-content .left {
+    float: left;
+    width: 514px;
+}
+
+.news-content .left .one {
+    border-bottom: 1px solid #e3e1e1;
+    padding-bottom: 15px;
+    margin-bottom: 21px;
+}
+
+.news-content .left .one h3 {
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.news-content .left .one h3 a {
+    color: #0e468c;
+}
+
+.news-content .left .one h4 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    padding-bottom: 12px;
+}
+
+.news-content .left .one .wz {
+    font-size: 14px;
+    color: #666666;
+    line-height: 23px;
+}
+
+.news-content .left ul li {
+    font-size: 12px;
+    color: #666666;
+    padding-bottom: 15px;
+}
+
+.news-content .right {
+    float: right;
+    width: 525px;
+    height: 314px;
+    background-color: pink;
+}
+
+.news-content .right img {
+    width: 525px;
+    height: 314px;
+}
+
+.news-content .right h4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(../images/touming.png);
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    width: 525px;
+}
+
+.newsmore {
+    width: 122px;
+    height: 36px;
+    border: 1px solid #4983d3;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 13px;
+    border-radius: 34px;
+    margin-bottom: 33px;
+}
+
+.newsmore a {
+    color: #4983d3;
+}
+
+.company-product-box {
+    background-color: #a3b7cf;
+}
+
+.product {
+    width: 1100px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 4px;
+}
+
+.product-item {
+    padding-top: 20px;
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+}
+
+.product-item img {
+    width: 90%;
+    height: 200px;
+}
+
+.product-item .txt {
+    padding: 5px 10px;
+}
+
+.product-item .txt p {
+    text-indent: 2em;
+    text-align: left;
+    font-size: 13.5px;
+}
