@@ -28,6 +28,7 @@
     height: 88px;
     cursor: pointer;
     display: none;
+    z-index: 10;
 }
 
 
@@ -45,26 +46,32 @@
     padding-left: 23px;
 }
 
+.top-header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: 0px 0px 6px #ccc;
+}
+
 .header {
-    position: relative;
     height: 70px;
-    /* width: 200px */
-    /* background-color: pink; */
+    background-color: #fff;
 }
 
 .header .logo {
     float: left;
-    /* 让图片居中对齐 */
-    /* padding-top: 4px; */
     width: 154px;
     height: 63px;
 }
 
 .header .logo a {
+    margin-top: 5px;
+    padding-left: 20px;
     display: block;
     width: 200px;
-    height: 60px;
-    background: url(../images/company_logo1.png) no-repeat;
+    height: 52px;
+    background: url(../images/company_logo.png) no-repeat;
     background-size: 100% 100%;
     /* 淘宝的做法让文字隐藏 */
     text-indent: -9999px;
@@ -92,9 +99,18 @@
 }
 
 .header .search-btn {
-    position: absolute;
-    top: 25px;
-    right: 20px;
+    float: right;
+    padding: 15px 45px 0 0;
+}
+
+.header .search-btn .btn {
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    border: none;
+    box-shadow: none;
+    background: url(../images/search.png) no-repeat center;
+    cursor: pointer;
 }
 
 .footer {
@@ -166,3 +182,26 @@
 
 
 /* .solution {} */
+
+.ny_nav {
+    height: 50px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.ny_nav li {
+    float: left;
+    margin-right: 64px;
+}
+
+.ny_nav li a {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    height: 45px;
+    line-height: 46px;
+    padding: 0 8px;
+}
+
+.current-icon {
+    border-bottom: 4px solid #88b645;
+}

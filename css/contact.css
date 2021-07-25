@@ -1,0 +1,98 @@
+.iw_poi_title {
+    color: #CC5522;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 13px;
+    white-space: nowrap
+}
+
+.iw_poi_content {
+    font: 12px arial, sans-serif;
+    overflow: visible;
+    padding-top: 4px;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word
+}
+
+.sideMenu {
+    border: 1px solid #ddd;
+}
+
+.sideMenu h3 {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    border-top: 1px solid #e3e3e3;
+    background: #f4f4f4;
+    cursor: pointer;
+    font: normal 14px/32px "Microsoft YaHei";
+}
+
+.sideMenu h3 em {
+    float: right;
+    display: block;
+    width: 40px;
+    height: 32px;
+    background: url(../images/icoAdd.png) 16px 12px no-repeat;
+    cursor: pointer;
+}
+
+.sideMenu h3.on em {
+    background-position: 16px -57px;
+}
+
+.sideMenu ul {
+    padding: 8px 25px;
+    color: #999;
+    display: none;
+    /* 默认都隐藏 */
+}
+
+.contact-content>div {
+    display: none;
+}
+
+.job-position h3 {
+    font-size: 16px;
+}
+
+.job-position li {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.sideMenu .job-current {
+    color: red;
+}
+
+.job-item {
+    display: none;
+}
+
+.job-content {
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.job-content .job-condition {
+    border-left: 3px solid #e33f1f;
+    font-size: 14px;
+    color: #e33f1f;
+    padding-left: 6px;
+    line-height: 1;
+}
+
+.job-require ul {
+    padding-top: 12px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    padding-left: 20px;
+    color: #222;
+    line-height: 36px;
+}
+
+.job-require ul li {
+    list-style-type: decimal;
+}
