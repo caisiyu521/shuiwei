@@ -18,12 +18,11 @@
     <link rel="stylesheet" href="css/common.css">
     <!-- 引入我们index.css文件  -->
     <link rel="stylesheet" href="css/index.css">
-
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <!-- Swiper JS -->
     <script src="js/swiper-bundle.min.js "></script>
     <script src="js/jquery.min.js"></script>
-
+    <script src="js/my.js"></script>
+    <!-- <script src="js/EasyLazyload.min.js"></script> -->
     <!-- swiper dome styles -->
     <style>
         .swiper-container {
@@ -80,44 +79,50 @@
         <img src="images/top.png" alt="">
     </div>
 
-    <!-- 欢迎模块 start 水伟环境欢迎你 -->
-    <section class="welcome">
-        <div class="w">
-            <div class="fl">
-                欢迎来到郑州水伟环境科技官网 !
-            </div>
-            <div class="fr">
-                010-xxxxxxx
-            </div>
-        </div>
-    </section>
-    <!-- 欢迎模块 end  -->
-
     <!-- header头部模块制作 start -->
-    <header class="header w">
-        <!-- logo模块 -->
-        <div class="logo">
-            <h1>
-                <a href="index.html" title="郑州水伟环境科技">郑州水伟环境科技</a>
-            </h1>
-        </div>
-        <div class="nav">
-            <ul class="clearfix">
-                <li><a href="#">首页</a> </li>
-                <li><a href="#">走进水伟</a></li>
-                <li><a href="#">新闻中心</a></li>
-                <li><a href="#">产品中心</a></li>
-                <li><a href="#">解决方案</a></li>
-                <li><a href="#">成功案例</a></li>
-                <li><a href="#">客户服务</a></li>
-                <li><a href="#">联系我们</a></li>
-            </ul>
-        </div>
-        <div class="search-btn">
-            <img src="images/search.png" alt="">
-        </div>
-    </header>
-    <!-- header头部模块制作 end -->
+
+    <div class="top-header ">
+        <!-- 欢迎模块 start 水伟环境欢迎你 -->
+        <section class="welcome clearfix ">
+            <div class="w">
+                <div class="fl">
+                    欢迎来到郑州水伟环境科技官网 !
+                </div>
+                <div class="fr">
+                    010-xxxxxxx
+                </div>
+            </div>
+        </section>
+        <!-- 欢迎模块 end  -->
+
+        <!-- nav -->
+        <header class="header ">
+            <div class="w clearfix">
+                <div class="logo">
+                    <h1>
+                        <a href="index.html" title="郑州水伟环境科技">郑州水伟环境科技</a>
+                    </h1>
+                </div>
+                <div class="nav">
+                    <ul class="clearfix">
+                        <li><a href="index.html">首页</a> </li>
+                        <li><a href="about.html">走进水伟</a></li>
+                        <li><a href="#">新闻中心</a></li>
+                        <li><a href="#">产品中心</a></li>
+                        <li><a href="#">解决方案</a></li>
+                        <li><a href="#">成功案例</a></li>
+                        <li><a href="#">客户服务</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="search-btn">
+                    <input type="submit" class="btn">
+                    <!-- <img src="images/search.png" alt=""> -->
+                </div>
+            </div>
+        </header>
+        <!-- nav -->
+    </div>
 
     <!-- Swiper start 轮播图 -->
     <div class="banner">
@@ -154,19 +159,19 @@
         </h4>
         <div class="company clearfix ">
             <div class="fl ">
-                <a href="# ">
+                <a href="about.html">
                     <img src="images/公司大楼-10512413898.jpg " alt=" ">
                 </a>
             </div>
             <div class="right fl ">
                 <h4>
-                    <a href="# ">郑州水伟环境科技有限公司</a>
+                    <a href="about.html">郑州水伟环境科技有限公司</a>
                 </h4>
                 <h5>
                     ZHENG ZHOU SHUIWEI TECHNOLOGY CO.LTD.
                 </h5>
                 <div class="info ">
-                    <a href="# ">
+                    <a href="about.html">
                         <p>郑州水伟环境科技有限公司，是由北京伟瑞迪科技有限公司派生出、进行MEMS智能多通道气体检测芯片研发生产及“智慧环保”平台解决方案应用的高技术公司。 公司致力于MEMS智能多通道气体检测芯片的开发,主要应用于智慧环保、环境监测、污染防控、安全管理等系统解决方案和公众健康服务。 产品采用基于MEMS工艺的硅纳米技术实现，具有成本低、响应快、精度高的优势，可以实现多种气体的高精度检测。公司拥有强大的研发团队，曾承担多项国家级研究课题。 公司将以让中国更环保更安全为目标,本着客户第一、创新、敬业的企业精神,推动行业进步,服务千家万户。
                         </p>
                     </a>
@@ -269,7 +274,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Add Arrows 添加箭头-->
+                <!-- Add Arrows 添加箭头 -->
                 <div class="swiper-button-next swiper-button-black "></div>
                 <div class="swiper-button-prev swiper-button-black "></div>
             </div>
@@ -363,7 +368,7 @@
                 </ul>
             </div>
             <div class="right ">
-                <div class="swiper-container " id="swiper3 ">
+                <div class="swiper-container " id="swiper3">
                     <div class="swiper-wrapper ">
                         <div class="swiper-slide ">
                             <a href=" ">
@@ -530,26 +535,6 @@
                 slideShadows: true,
             },
 
-        })
-
-        $(function() {
-            // 被卷去的头部 scrollTop()  / 被卷去的左侧 scrollLeft()
-            // 页面滚动事件
-            var boxtop = $('.company-info').offset().top;
-            $(window).scroll(function() {
-                // console.log($(document).scrollTop());
-                if ($(document).scrollTop() >= boxtop) {
-                    $('.back').fadeIn();
-                } else {
-                    $('.back').fadeOut();
-                }
-            });
-            // 返回顶部
-            $('.back').click(function() {
-                $('body,html').stop().animate({
-                    scrollTop: 0
-                }, 1000);
-            });
         })
     </script>
 </body>
